@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(185, 75%, 39%);
+}
+.circle1 {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    overflow: visible;
+}
+.circle2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: visible;
+}
+.main-card {
+    height: 50%;
+    width: 20%;
+    background-color: rgb(255, 255, 255); 
+    z-index: 1;
+}
+.profile-background {
+    display: inline;
+    visibility: visible;
+}
